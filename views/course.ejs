@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta property="og:title" content="Freedemy" />
+    <meta
+      property="og:description"
+      content="Freedemy is offering free courses from top universities and instructors around the world."
+    />
+    <meta property="og:image" content="<%= course.image %>" />
+    <!-- Add URL to your image for social media preview -->
+    <!-- <meta property="og:url" content="YOUR_PAGE_URL_HERE" /> Add the URL of your webpage here -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Freedemy" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      src="https://kit.fontawesome.com/2b9cdc1c9a.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="/product.css" />
+    <!-- <link rel="stylesheet" href="/style.css" /> -->
+    <title><%= course.h1 %></title>
+  </head>
+  <body>
+    <!-- Code for navbar -->
+    <%- include('header.ejs') %>
+
+    <center>
+      <div class="ad block md:hidden" style="padding: 10px">
+        <script type="text/javascript">
+          atOptions = {
+            key: "4c2ac7c7b6434e4ae0cde5bbdcd53b2e",
+            format: "iframe",
+            height: 250,
+            width: 250,
+            params: {},
+          };
+          document.write(
+            "<scr" +
+              'ipt type="text/javascript" src="http' +
+              (location.protocol === "https:" ? "s" : "") +
+              '://www.profitabledisplaynetwork.com/4c2ac7c7b6434e4ae0cde5bbdcd53b2e/invoke.js"></scr' +
+              "ipt>"
+          );
+        </script>
+      </div>
+      <div class="ad hidden md:block">
+        <script type="text/javascript">
+          atOptions = {
+            key: "9a9abc358dc2437f4dc83177126817aa",
+            format: "iframe",
+            height: 90,
+            width: 728,
+            params: {},
+          };
+          document.write(
+            "<scr" +
+              'ipt type="text/javascript" src="http' +
+              (location.protocol === "https:" ? "s" : "") +
+              '://www.profitabledisplaynetwork.com/9a9abc358dc2437f4dc83177126817aa/invoke.js"></scr' +
+              "ipt>"
+          );
+        </script>
+      </div>
+    </center>
+    <div class="md:flex">
+      <div
+        style="margin-top: 70px"
+        class="right flex flex-col justify-center m-7 md:w-full md:h-1/2 md:m-auto md:items-center"
+      >
+        <img src="<%= course.image %>" class="headerImg" alt="" />
+        <br />
+        <center>
+          <div class="ad hidden md:block">
+            <script type="text/javascript">
+              atOptions = {
+                key: "4c2ac7c7b6434e4ae0cde5bbdcd53b2e",
+                format: "iframe",
+                height: 250,
+                width: 300,
+                params: {},
+              };
+              document.write(
+                "<scr" +
+                  'ipt type="text/javascript" src="http' +
+                  (location.protocol === "https:" ? "s" : "") +
+                  '://www.profitabledisplaynetwork.com/4c2ac7c7b6434e4ae0cde5bbdcd53b2e/invoke.js"></scr' +
+                  "ipt>"
+              );
+            </script>
+          </div>
+        </center>
+      </div>
+      <div class="left align-middle md:ml-0">
+        <div
+          class="learn text-black text-2xl md:mt-10 md:pt-12 ml-7 text-left md:ml-0"
+          id="classKMKB"
+        >
+          <%= course.h1 %>
+        </div>
+        <div class="text text-base text-left ml-7 md:ml-0">
+          <h2 class="text-xl md:text-3xl mb-2 mt-4 text-black specialFont">
+            Description
+          </h2>
+          <div class="courseDescription md:text-xl md:max-w-2xl">
+            <%= course.desc %>
+          </div>
+          <h2 class="text-xl mt-6 mb-5 text-black md:text-3xl specialFont">
+            Price: <s class="text-red-600"><%= course.price %></s>
+            <span class="text-green-800">Free!!</span>
+          </h2>
+        </div>
+
+        <div class="ad hidden md:block">
+          <script type="text/javascript">
+            atOptions = {
+              key: "4c5b461fa6e5d87628178a41b6b96e9d",
+              format: "iframe",
+              height: 60,
+              width: 468,
+              params: {},
+            };
+            document.write(
+              "<scr" +
+                'ipt type="text/javascript" src="http' +
+                (location.protocol === "https:" ? "s" : "") +
+                '://www.profitabledisplaynetwork.com/4c5b461fa6e5d87628178a41b6b96e9d/invoke.js"></scr' +
+                "ipt>"
+            );
+          </script>
+        </div>
+
+        <center>
+          <div class="ad block md:hidden">
+            <script type="text/javascript">
+              atOptions = {
+                key: "72fdcc8b38fe3539bd6018a43baf2933",
+                format: "iframe",
+                height: 50,
+                width: 320,
+                params: {},
+              };
+              document.write(
+                "<scr" +
+                  'ipt type="text/javascript" src="http' +
+                  (location.protocol === "https:" ? "s" : "") +
+                  '://www.profitabledisplaynetwork.com/72fdcc8b38fe3539bd6018a43baf2933/invoke.js"></scr' +
+                  "ipt>"
+              );
+            </script>
+          </div>
+        </center>
+
+        <div class="deskBtn text-center md:text-left md:ml-0 mb-7 ml-2">
+          <a href="<%= course.link %>" target="_blank">
+            <button class="btn">Enroll Now</button>
+          </a>
+          <a href="https://t.me/coursesfreedemy" target="_blank"
+            ><button class="btnsec" id="joinTeleBtn">
+              Join Our Telegram
+            </button></a
+          >
+        </div>
+      </div>
+    </div>
+
+    <!-- Code for similar courses wala card -->
+    <div class="header text-3xl md:text-4xl">
+      <h1>Similar Courses</h1>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="content">
+          <% randomCourses.forEach(function(link) { %>
+          <a href="/course/<%=randomPage %>/<%= link.h1 %>">
+            <div class="card flex flex-col justify-between pb-6">
+              <img src="<%= link.image %>" alt="" />
+              <h4><%= link.h1 %></h4>
+              <p><%= link.desc %></p>
+              <button class="cardBtn ml-auto mr-auto">
+                <span>Preview This Course</span>
+              </button>
+            </div>
+          </a>
+          <% }); %>
+        </div>
+      </div>
+    </div>
+    <center>
+      <div class="ad" style="width: 70%">
+        <script
+          async="async"
+          data-cfasync="false"
+          src="//pl20165272.highwaycpmrevenue.com/878a4cf5b32ed30d147f0b43cb27c07a/invoke.js"
+        ></script>
+        <div id="container-878a4cf5b32ed30d147f0b43cb27c07a"></div>
+      </div>
+
+      <div class="ad hidden md:block">
+        <script type="text/javascript">
+          atOptions = {
+            key: "9a9abc358dc2437f4dc83177126817aa",
+            format: "iframe",
+            height: 90,
+            width: 728,
+            params: {},
+          };
+          document.write(
+            "<scr" +
+              'ipt type="text/javascript" src="http' +
+              (location.protocol === "https:" ? "s" : "") +
+              '://www.profitabledisplaynetwork.com/9a9abc358dc2437f4dc83177126817aa/invoke.js"></scr' +
+              "ipt>"
+          );
+        </script>
+      </div>
+    </center>
+    <!-- code for footer -->
+    <div class="foot text-white mt-20">
+      <footer>
+        <div
+          class="flex flex-col md:flex-row justify-center md:justify-between"
+        >
+          <div class="footerAbout w-72 text-sm pb-10 m-auto">
+            <h3 class="mb-5 pt-10 md:text-lg font-extrabold aboutHeading">
+              ABOUT
+            </h3>
+            <p class="footerSpan text-xs md:text-base">
+              Finding the right Online Course is difficult, Freedemy makes it
+              easy for you get free course with certificate
+            </p>
+          </div>
+
+          <div class="bgd m-auto">
+            <div class="socials">
+              <span class="social-media-buttons">
+                <a
+                  class="social-media-button"
+                  href="https://t.me/coursesfreedemy"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-telegram fa-2xl"></i>
+                </a>
+                <a
+                  href="https://www.instagram.com/freedemy4you/"
+                  target="_blank"
+                  class="social-media-button"
+                >
+                  <i class="fa-brands fa-instagram fa-2xl"></i>
+                </a>
+                <a class="social-media-button">
+                  <i class="fa-brands fa-linkedin fa-2xl"></i>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+        <hr />
+
+        <div class="footerContainer flex md:justify-between text-xs pt-7 pb-7">
+          <div class="love hidden md:block ml-auto mr-auto">
+            <span> Made with 🤍 | FreeDemy</span>
+          </div>
+
+          <div class="credit m-auto">
+            © 2023 Freedemy Inc. All rights reserved.
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,462 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akatab:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Office:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.ad{
+  padding: 25px 25px 25px 0px;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 768px){
+  .ad{
+    padding: 25px;
+    overflow: hidden;
+    margin: auto;
+  }
+}
+  
+
+.btnsec{
+  color:  #031d44 ;
+  font-weight: 600;
+  background-color: aliceblue;
+  width: 200px;
+  padding: 20px;
+  margin: 20px 0px 0 0px;
+  /* border: 4px solid #031d44; */
+  box-shadow:0px 0px 0px 5px #031d44 inset;
+  border-radius: 6px;
+  font-family: 'Akatab', sans-serif;
+  font-size: 16px;
+}
+
+.btnsec:hover {
+  background-color: rgb(222, 230, 236);
+  transition: 0.2s;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#searchInput{
+  border-radius: 20px;
+  width: 14rem;
+  font-weight: 600;
+  padding-left: 13px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#search-sec{
+  margin: 12px;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  background-color: #031d44;
+  position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+  transition: display 0.3s ease;
+}
+
+.shownav{
+  display: block !important ;
+    transition: display 0.3s ease;
+  
+}
+
+
+.item:hover{
+    border-bottom: 2px solid white;
+    transition: 0.17s;
+}
+
+.navbar{
+    background-color: #031d44
+}
+
+.learn{
+    /* font-size: 3rem; */
+    text-align: center;
+    color: #031d44;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 2rem;
+}
+
+.text{
+    padding: 20px 0px 0px 0px;
+    /* text-align: center; */
+    font-family: 'Akatab', sans-serif;
+    /* font-size: 20px; */
+    color: #1f1f1fb8;
+}
+
+.btn{
+    color: aliceblue;
+    background-color: #031d44;
+    font-weight: 600;
+    width: 200px;
+    padding: 20px;
+    margin: 20px 0px 0 0px;
+    border-radius: 6px;
+    font-family: 'Akatab', sans-serif;
+    font-size: 16px;
+}
+
+.btn:hover{
+    background-color: #084b83;
+    transition: 0.2s;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header{
+    text-align: center;
+    /* font-size: 45px; */
+    color: #031d44;
+    padding-top: 35px;
+    /* margin: auto; */
+}
+
+.headerImg{
+border-radius: 10px;
+}
+
+
+@media screen and (max-width: 768px){
+    .content{
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (min-width: 768px){
+    .left{
+        width: 97rem;
+        margin: 0rem 0 0 5rem;
+    }
+}
+
+
+
+@media screen and (min-width: 768px){
+    .deskBtn{
+        margin-left: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .text{
+        margin-right: 1.75rem;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .container .row .header h1{
+        width: 20rem;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 768px){
+    #classKMKB{
+        line-height: 3.25rem;
+        font-size: 39px;
+        max-width: 45rem;
+    }
+}
+
+.foot{
+    background-color: #031d44;
+}
+
+.footerSpan, .footerContainer{
+    color: #cccccc;
+}
+
+.specialFont{
+    font-family: 'Ysabeau Office', sans-serif;
+}
+
+
+/* Code for similar courses wale cards */
+.container{
+    width: 100%;
+    min-width: 100%;
+}
+
+.container .row{
+    width: 80%;
+    margin: auto;
+}
+
+.container .row .header h1{
+    font-size: 45px;
+    color: #031d44;
+    padding-top: 35px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    /* flex-wrap: wrap; */
+    /* margin-top: 1.5rem; */
+}
+
+.content .card{
+    flex: 1;
+    margin: 50px 20px;
+    box-shadow: 0 3px 10px rgb(0,0,0,0.2);
+    background-color: #fff;
+    transition: transform 0.3s ease;
+    max-width: 350px;
+  min-width: 250px;
+  height: 450px;
+  border-radius: 10px;
+}
+
+.content .card:hover{
+    transform: translateY(-15px);
+    cursor: pointer;
+}
+
+/* .content .card:hover img {
+    filter: brightness(60%);
+    transform: scale(1.1);
+    transition: 0.5s;
+  } */
+
+.content .card img{
+    width: 100%;
+    height: auto;
+}
+
+.content .card h4{
+    margin-top: 16px;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.content .card p{
+    font-size: 15px;
+    color: #6e6e6e;
+    line-height: 1.5;
+    padding: 10px;
+}
+
+
+/* Code for Button */
+.cardBtn {
+    position: relative;
+    width: 250px;
+    height: 60px;
+    border: none;
+    border-radius: 30px;
+    background-color: #031d44;
+    color: aliceblue;
+    font-family: 'Akatab', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    z-index: 1;
+    overflow: hidden;
+    transition: box-shadow 0.3s;
+  }
+  
+  .cardBtn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    background-color: #084b83;
+    transform: translateY(100%);
+    transition: transform 0.4s cubic-bezier(0.68, -0.6, 0.32, 1.6);
+    z-index: -1;
+  }
+  
+  .cardBtn::after {
+    content: '';
+    position: absolute;
+    top: -100%;
+    left: 50%;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgba(0, 227, 255, 0.5);
+    transform: translate(-50%, -50%) scale(0);
+    transition: transform 0.4s ease-in-out;
+    z-index: -1;
+  }
+  
+  .cardBtn:hover {
+    box-shadow: 0 0 5px 1px #00e3ff, 0 0 10px 1px #00e3ff, 0 0 30px 2px #00e3ff;
+  }
+  
+  .cardBtn:hover::before {
+    transform: translateY(0);
+  }
+  
+  .cardBtn:hover::after {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 0.7;
+  }
+  
+@media screen and (max-width: 768px){
+    .cardBtn{
+        max-width: 200px;
+    }
+}
+
+:root {
+    --linkedin: #0A66C2;
+    --youtube: #e52d27;
+    --twitter: #1D9BF0;
+  }
+  
+  .bgd {
+    display: grid;
+    place-items: center;
+  
+  }
+  
+  .social-media-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+  
+  .social-media-button {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    outline: 2px solid white;
+    cursor: pointer;
+    transition: all 0.3s;
+    display: grid;
+    place-items: center;
+  }
+  
+  .social-media-button:hover {
+    outline-offset: 3px;
+    transition: all 0.3s;
+  }
+  
+  .social-media-button img {
+    transition: all 0.3s;
+  }
+  
+  .social-media-button:hover img {
+    transform: scale(1.15);
+  }
+  
+  .social-media-button:hover:nth-child(2) {
+    background:  radial-gradient(
+        circle at 30% 107%, #fdf497 0%, 
+        #fdf497 5%, #fd5949 45%,
+        #d6249f 60%,#285AEB 90%
+    ); 
+  }
+  
+  .social-media-button:hover:nth-child(1) {
+    background-color: var(--twitter);
+  }
+  
+  .social-media-button:hover:nth-child(3) {
+    background-color: var(--linkedin);
+  }
+  
+  @media screen and (max-width: 768px) {
+    .bgd{
+      padding-bottom: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .aboutHeading{
+      text-align: center;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .footerSpan{
+      text-align: center;
+    }
+  }
+
+  .contain{
+    padding: 20px;
+  }
+  
+  .contain .form{
+    /* width: 100%; */
+    border: 1px solid rgb(82, 74, 235);
+  }
+  
+  #search-item{
+    border-radius: 20px;
+    width: 14rem;
+    font-weight: 600;
+    padding-left: 13px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
+  
+  .contain .form input{
+    border: none;
+    outline: none;
+    box-shadow: none;
+    width: 100%;
+    font-size: 16px;
+  }
+
+  @media screen and (min-width: 768px) {
+
+    #joinTeleBtn{
+      margin-left: 10px;
+    }
+  }

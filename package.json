@@ -1,0 +1,40 @@
+{
+  "name": "scapperwebsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm",
+    "dev": "nodemon app.js",
+    "build": "npm i"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.24",
+    "tailwindcss": "^3.3.2",
+    "vite": "^4.3.9"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "cheerio": "^1.0.0-rc.12",
+    "dompurify": "^3.0.5",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "jsdom": "^22.1.0",
+    "node-cache": "^5.1.2",
+    "nodemon": "^2.0.22",
+    "p-limit": "^4.0.0",
+    "p-queue": "^7.3.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LakshitAgarwal/Freedemy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LakshitAgarwal/Freedemy/issues"
+  },
+  "homepage": "https://github.com/LakshitAgarwal/Freedemy#readme"
+}
