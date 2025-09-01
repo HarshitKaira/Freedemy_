@@ -87,9 +87,6 @@ freedemy/
 └── ...                # Other files (e.g., CSS, images)
 ```
 
-## 📸 Screenshots
-
-(Add screenshots of the application here to showcase the user interface and functionality)
 
 ## 🤝 Contributing
 
@@ -101,13 +98,10 @@ Contributions are welcome! Please follow these steps:
 4.  Push your changes to your fork.
 5.  Submit a pull request.
 
-## 📝 License
-
-This project is licensed under the [MIT License](LICENSE) - see the `LICENSE` file for details.
 
 ## 📬 Contact
 
-If you have any questions or suggestions, feel free to contact me at [your-email@example.com](mailto:your-email@example.com).
+If you have any questions or suggestions, feel free to contact me at [harshitkaira999@gmail.com](harshitkaira999@gmail.com).
 
 ## 💖 Thanks
 
